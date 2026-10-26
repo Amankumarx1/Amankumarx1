@@ -1,104 +1,98 @@
 # AMAN KUMAR
-**Cybersecurity Engineer • Full-Stack Systems Developer**  
+**Cybersecurity Engineer • Systems & Backend Developer**  
 Lucknow, Uttar Pradesh, India | Phone: +91 7599090149  
 Email: [Amankumx01@gmail.com](mailto:Amankumx01@gmail.com) | LinkedIn: [linkedin.com/in/amankumarx1](https://linkedin.com/in/amankumarx1) | GitHub: [github.com/Amankumarx1](https://github.com/Amankumarx1) | Portfolio: [rootsec-v3.vercel.app](https://rootsec-v3.vercel.app/)
 
 ---
 
-## PROFESSIONAL SUMMARY
-Second-year B.Tech Cyber Security student at Chandigarh University, Lucknow building practical skills in cybersecurity, defensive architecture, and software development. President of RootSec Cyber Security Club and Microsoft Student Ambassador. Proven track record in building active deception systems, threat routing engines, dynamic application security testing (DAST) suites, and full-stack platforms. Ranked in the top 7.45% of Hack The Box Homles CTF 2026 and holder of three Quick Heal professional certifications. Seeking technical internships and roles in Cybersecurity Engineering, Application Security, and Software Development.
-
----
-
-## EDUCATION
-**Chandigarh University, Lucknow Campus**  
-*Bachelor of Technology in Computer Science Engineering (Cyber Security)* | 2025 – 2029  
-- Relevant Coursework: Network Security, System Administration, Penetration Testing & Ethical Hacking, Data Structures, Operating Systems, Linux Internals, Computer Networks
-
-**Police Modern School, Etawah, UP**  
-*Senior Secondary (CBSE Class XII - PCM Stream)* | 2023 – 2025  
-
-**Gyan Sthali Academy, Etawah, UP**  
-*Secondary Education (CBSE Class X)* | 2021 – 2023  
+## TECHNICAL SUMMARY
+Second-year B.Tech Computer Science Engineering (Cyber Security) student at Chandigarh University, specializing in offensive & defensive security engineering, active deception architectures, and high-performance backend systems. Proven builder of perimeter threat-routing engines (ShadowAuth), automated DAST scanners & ASGI WAF middlewares (AegisAppSec), and continuous secret leak detection systems (LeakLens). Global top 7.45% in Hack The Box Homles CTF 2026, 1st Runner Up in Hack2Innovate CTF 2026, and 3x Quick Heal Certified Professional.
 
 ---
 
 ## TECHNICAL SKILLS
-- **Cybersecurity & Offensive/Defensive**: Network Security, Penetration Testing (VAPT), Vulnerability Assessment, OSINT Techniques, Active Deception & Honeypot Routing, DAST & WAF Architecture, Kali Linux, Wireshark, Metasploit, Nmap, Burp Suite
-- **Programming & Scripting Languages**: Python, C, JavaScript, TypeScript, Bash, SQL, HTML5, CSS3
-- **Frameworks & Backend**: FastAPI, Django, Django REST Framework (DRF), Flask, Node.js, Express, React, Tailwind CSS, REST APIs
-- **Virtualization & DevOps**: Docker, Linux (Debian, Ubuntu, Kali), VMware, VirtualBox, Git, GitHub Actions, AWS Foundations, Vercel
-- **Databases & Storage**: MySQL, Redis, JSON-based storage
+
+- **Cybersecurity & Threat Defense**: Vulnerability Assessment & Penetration Testing (VAPT), Active Deception & Honeynet Routing, DAST & ASGI WAF Architecture, OWASP Top 10, Network Traffic Analysis, OSINT, Threat Forensics
+- **Security Tools**: Kali Linux, Wireshark, Burp Suite Pro, Nmap & NSE, Metasploit Framework, Ghidra, GDB, OWASP ZAP
+- **Core Languages**: Python (3.12+), C (Systems Programming), Bash Scripting, TypeScript, JavaScript, SQL
+- **Frameworks & Middlewares**: FastAPI, Django, Django REST Framework (DRF), Flask, Node.js, Express, React, Tailwind CSS, REST APIs, WebSockets
+- **Infrastructure & Virtualization**: Docker Containers, Linux System Administration (Debian, Ubuntu, Kali), VMware, VirtualBox, Git & GitHub Actions, AWS Cloud Foundations, Reverse Proxies (Nginx)
+- **Databases & In-Memory Stores**: MySQL, Redis, SQLite
 
 ---
 
-## KEY PROJECTS
+## CORE TECHNICAL PROJECTS
 
-### ShadowAuth — Active Deception & Threat Routing Platform (2026)
-*Technologies: Python, FastAPI, Django, Docker, MySQL, REST APIs*
-- Designed and built an enterprise-grade network security architecture based on active deception and threat routing.
-- Sits at the network perimeter, analyzing incoming traffic signatures in real time; benign traffic is directed to legitimate microservices while malicious traffic (automated scanners, SQLi attempts, DDoS probes) is invisibly funneled into a sandboxed honeypot.
-- Isolated honeynet captures detailed adversary telemetry, payload signatures, and attack vectors without risk to core business infrastructure.
+### ShadowAuth — Active Deception & Perimeter Threat Routing Platform (2026)
+*Tech Stack: Python, FastAPI, Django, Docker, MySQL, REST APIs*
+- Designed and built a perimeter defense architecture utilizing real-time connection profiling and active deception.
+- Intercepts edge ingress traffic, automatically routing legitimate authenticated requests to production services while silently redirecting scanners, SQL injection payloads, and DDoS probes into an isolated honeynet sandbox.
+- Captures full attacker forensics, payload telemetry, and adversary TTPs without compromising underlying production databases.
 
-### AegisAppSec — Autonomous DAST & Real-Time WAF Defense Platform (2026)
-*Technologies: Python, FastAPI, Django REST Framework, JavaScript, Docker*
-- Engineered a unified application defense hub combining lightweight DAST scanning, ASGI real-time WAF middleware, and an exploit reproduction engine.
-- Filters malicious inbound payloads before they reach application endpoints and generates reproducible PoC reports with automated remediation guides.
+### AegisAppSec — Autonomous DAST & Real-Time ASGI WAF Defense Platform (2026)
+*Tech Stack: Python, FastAPI, Django REST Framework, ASGI Middleware, Docker*
+- Engineered an automated application security platform combining dynamic AST scanning with real-time request filtering.
+- Implemented an ASGI middleware layer directly in the request pipeline that detects and drops malicious payloads with sub-millisecond overhead.
+- Built an exploit reproduction engine to automatically generate proof-of-concept scripts and verified remediation code.
 
-### LeakLens — Authorized Data Exposure Detection & Response
-*Technologies: Node.js, TypeScript, React, Security Analysis APIs*
-- Built an automated discovery engine for identifying compromised credentials, API keys, tokens, and sensitive data exposures across public repositories and cloud buckets.
-- Implements automated triage workflows, threat severity scoring, and alert generation.
+### LeakLens — Authorized Data Exposure Detection & Incident Response Engine
+*Repository: github.com/Amankumarx1/Leaklens*  
+*Tech Stack: Node.js, TypeScript, React, Security Analysis APIs*
+- Implemented an automated credential exposure scanner identifying compromised API tokens, private keys, and high-entropy secrets across repositories and public vectors.
+- Built automated incident response pipelines and token risk scoring based on credential permission scope.
 
-### RootSec-V3 — Cybersecurity Platform & Knowledge Hub
-*Technologies: HTML5, CSS3, Vanilla JavaScript, Vercel*
-- Developed and deployed the official portal for RootSec ([rootsec-v3.vercel.app](https://rootsec-v3.vercel.app/)), providing resources, workshop guides, and CTF challenges for university students.
+### Winter Arc CTF (WACTF) — Capture-The-Flag Competition Engine
+*Tech Stack: Python, JavaScript, Dynamic Scoring, Container Sandboxing*
+- Engineered a distributed CTF engine managing challenge deployments across Web Exploitation, Cryptography, and Reverse Engineering.
+- Built an anti-cheat verification system with dynamic flag hashing to prevent replay attacks.
+
+### DualSurf — Air-Gapped Cyber Sandbox Browser
+*Repository: github.com/Amankumarx1/dualsurf*  
+*Tech Stack: Python, Browser Core Sandboxing, Ephemeral Runtimes*
+- Developed a dual-mode browser architecture that isolates untrusted web traffic and scripts into disposable containers for secure malware inspection.
 
 ### Indoor Positioning System (IPS) — Autonomous Localization Engine
-*Technologies: Python, C++, RF Sensor Modules, Signal Processing*
-- Developed an RF triangulation system providing sub-meter indoor navigation and asset tracking in GPS-denied environments.
+*Repository: github.com/Amankumarx1/IPS-IndoorPositioiningSystem*  
+*Tech Stack: Python, C++, RF Hardware Modules, Signal Processing*
+- Developed an RF signal triangulation engine using sensor fusion and multi-lateration algorithms to achieve sub-meter indoor positioning without GPS signals.
 
 ---
 
-## EXPERIENCE & LEADERSHIP
+## COMPETITIVE CTF & SECURITY MILESTONES
 
-**RootSec — Cyber Security Club, Chandigarh University**  
-*President* | 2025 – Present
-- Lead the executive student committee, planning and executing weekly cybersecurity training sessions covering network protocols, Linux administration, and ethical hacking.
-- Organized inaugural cybersecurity bootcamp and CTF competitions for university students.
-
-**CodexSec (IT Education Platform)**  
-*Operations Lead* | Present
-- Coordinated operations for BlackOut Sector CTF 2026, a 50-hour online competition with 3 corporate sponsors and 2 community partners.
-- Developed the CodexSec Ambassador Portal using Flask 3, Redis, and Tailwind CSS.
-
-**Microsoft**  
-*Microsoft Student Ambassador* | 2026 – Present
-- Deliver workshops and peer learning sessions focused on Azure cloud tools, AI security, and developer productivity.
-
-**Google**  
-*Google Student Ambassador* | 2025 – 2026
-- Spearheaded student engagement and workshops around Google developer technologies and Google Cloud.
-
-**Innovation & Entrepreneurship Development Cell (IEDC)**  
-*Outreach Team Member* | 2025 – Present
-- Managed outreach initiatives connecting student startups with industry mentors, incubators, and technical resources.
+- **Hack The Box — Homles CTF 2026**: Team *0xFAULT* ranked **420 of 5,637 teams worldwide (Top 7.45%)** across web exploitation, active directory escalation, and binary reverse engineering.
+- **Hack2Innovate CTF & Hackathon 2026 (Quick Heal & CompTIA)**: **1st Runner Up (2nd Place)** | Credential ID: `H2I-2026-RU1-24F6E4`.
+- **BlackOut Sector CTF 2026**: Infrastructure & Challenge Deployment Lead for a 50-hour online CTF competition.
 
 ---
 
-## HONORS & AWARDS
-- **Hack The Box Homles CTF 2026**: Squad *0xFAULT* ranked **420th out of 5,637 teams worldwide** (Top 7.45%).
-- **Hack2Innovate CTF + Hackathon 2026 (Quick Heal & CompTIA)**: **1st Runner Up (2nd Place)** with squad CODEXSEC (Sep 2026 | ID: `H2I-2026-RU1-24F6E4`).
-- **HacXLerate Hackathon (ByteXL)**: National level hackathon participant.
-- **AI in Healthcare Hackathon**: Developed predictive diagnostic workflow prototype.
+## VERIFIED CERTIFICATIONS
 
----
-
-## CERTIFICATIONS
 - **Quick Heal Certified Cyber Security Analyst** (June 2026 | ID: `nMMV2YtAsJP20MV106WIsQ`)
 - **Quick Heal Certified System Administrator** (June 2026 | ID: `IQlIgJBH6Mni67aFpNZH7w`)
 - **Quick Heal Certified Secure Coding Professional** (June 2026 | ID: `onBM28iYAy1EKnSgzccpPw`)
-- **IT Fundamentals Certification** — Quick Heal Academy (ID: `2025/QH/CU03`)
-- **Microsoft Learn**: 30 Badges & 8 Trophies in AI, Azure AI, and Cloud Security
-- **Cisco Packet Tracer Suite**: 3 Core Network Simulation Certifications
-- **Google Generative AI Studio**: Large Language Model Foundations
+- **Quick Heal IT Fundamentals Certification** (ID: `2025/QH/CU03`)
+- **Microsoft Learn**: 30 Badges & 8 Trophies in Azure Cloud Infrastructure & AI Security
+- **Cisco Networking Academy**: 3 Core Packet Tracer Network Protocol & Routing Certifications
+- **Google Cloud**: Generative AI Systems & LLM Architecture Foundations
+
+---
+
+## TECHNICAL LEADERSHIP
+
+**RootSec — Cyber Security Club, Chandigarh University**  
+*President & Technical Lead* | 2025 – Present
+- Lead technical deep dives on binary exploitation, Linux system administration, and vulnerability assessment.
+- Architect internal CTF training challenges for 100+ student members.
+
+**Microsoft**  
+*Microsoft Student Ambassador* | 2026 – Present
+- Conduct technical workshops on Azure Cloud services, containerization, and DevSecOps pipelines.
+
+---
+
+## EDUCATION
+
+**Chandigarh University, Lucknow Campus**  
+*Bachelor of Technology (B.Tech) in Computer Science Engineering (Cyber Security)* | 2025 – 2029  
+- Focus: Network Security Protocols, System Administration, Penetration Testing & VAPT, Data Structures & Algorithms, Linux Internals, Cryptography.
